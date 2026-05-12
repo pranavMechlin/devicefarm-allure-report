@@ -1,1 +1,1 @@
-[{"uid":"6ac3ada9fc3b8e9e","name":"should delete account successfully","time":{"start":1778614129430,"stop":1778614177924,"duration":48494},"status":"passed","severity":"normal"}]
+[{"uid":"d09e43138f6cf12c","name":"should delete account successfully","time":{"start":1778620015271,"stop":1778620049727,"duration":34456},"status":"broken","severity":"normal"}]
