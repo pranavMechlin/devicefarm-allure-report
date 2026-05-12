@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//XCUIElementTypeImage[@name=\"Business or Brand\"]"
-}

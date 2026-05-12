@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//XCUIElementTypeTextField[@name=\"Search Place..\"]"
-}

@@ -1,7 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","78628","should delete account successfully","buisness flow","2026-05-12","broken","2026-05-12","","","",""
-"","37746","Should post a comment on a posted review","buisness flow","2026-05-12","passed","2026-05-12","","","",""
-"","38792","should login & logout successfully as Business or Brand","buisness flow","2026-05-12","passed","2026-05-12","","","",""
-"","32837","it should delete the business promotional video successfully","buisness flow","2026-05-12","passed","2026-05-12","","","",""
-"","96517","should register successfully as Business or Brand","buisness flow","2026-05-12","passed","2026-05-12","","","",""
-"","84280","Should post the business promotional video successfully","buisness flow","2026-05-12","passed","2026-05-12","","","",""
+"","48373","should delete account successfully","buisness flow","2026-05-12","passed","2026-05-12","","","",""
