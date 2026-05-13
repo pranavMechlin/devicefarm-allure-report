@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//XCUIElementTypeStaticText[@label=\"Login\" and @enabled=\"true\"]"
-}

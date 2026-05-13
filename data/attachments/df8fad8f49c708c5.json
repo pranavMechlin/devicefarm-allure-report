@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//*[contains(@label,\"Based on your name,\") \n                   or contains(@name,\"Based on your name,\") \n                   or contains(@value,\"Based on your name,\") \n                   or contains(@text,\"Based on your name,\")]"
-}

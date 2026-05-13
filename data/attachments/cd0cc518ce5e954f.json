@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "(//XCUIElementTypeApplication[@name=\"Tapsy\"]//XCUIElementTypeOther[3]//XCUIElementTypeOther[1])[6]"
-}

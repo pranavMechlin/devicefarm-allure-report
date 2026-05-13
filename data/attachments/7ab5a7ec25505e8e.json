@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//XCUIElementTypeStaticText[@name=\"Upload Logo\"]/parent::XCUIElementTypeOther//XCUIElementTypeImage[@accessible=\"true\"][1]"
-}
