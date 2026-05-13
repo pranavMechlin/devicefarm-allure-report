@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[contains(@label,\"Comment posted successfully\") \n                   or contains(@name,\"Comment posted successfully\") \n                   or contains(@value,\"Comment posted successfully\") \n                   or contains(@text,\"Comment posted successfully\")]"
+}

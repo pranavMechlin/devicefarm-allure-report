@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[contains(@label,\"Video uploaded successfully!\") \n                   or contains(@name,\"Video uploaded successfully!\") \n                   or contains(@value,\"Video uploaded successfully!\") \n                   or contains(@text,\"Video uploaded successfully!\")]"
+}
