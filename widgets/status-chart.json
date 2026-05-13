@@ -1,1 +1,1 @@
-[{"uid":"aac2b9813f34d2f0","name":"it should download the business QR code","time":{"start":1778692080927,"stop":1778692113822,"duration":32895},"status":"passed","severity":"normal"}]
+[{"uid":"f161f9c3a3b02fe4","name":"send health & Support email","time":{"start":1778694017658,"stop":1778694061823,"duration":44165},"status":"broken","severity":"normal"},{"uid":"4016b7dfc01d239b","name":"it should download the business QR code","time":{"start":1778693958365,"stop":1778693991617,"duration":33252},"status":"passed","severity":"normal"}]

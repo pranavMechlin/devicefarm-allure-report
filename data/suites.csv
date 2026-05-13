@@ -1,2 +1,3 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","32895","it should download the business QR code","buisness flow","2026-05-13","passed","2026-05-13","","","",""
+"","44165","send health & Support email","Individual login flow","2026-05-13","broken","2026-05-13","","","",""
+"","33252","it should download the business QR code","buisness flow","2026-05-13","passed","2026-05-13","","","",""
