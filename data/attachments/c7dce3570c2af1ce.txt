@@ -1,0 +1,934 @@
+.........Console Logs.........
+
+2026-05-15T15:54:45.886Z INFO webdriver: COMMAND executeScript("mobile: alert", <object>)
+2026-05-15T15:54:45.886Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/execute/sync
+2026-05-15T15:54:45.886Z INFO webdriver: DATA {"script":"mobile: alert","args":[{"action":"getButtons"}]}
+2026-05-15T15:54:46.239Z INFO webdriver: RESULT [ 'Don’t Allow', 'Allow' ]
+Alert Buttons: [ 'Don’t Allow', 'Allow' ]
+2026-05-15T15:54:46.242Z INFO webdriver: COMMAND executeScript("mobile: alert", <object>)
+2026-05-15T15:54:46.242Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/execute/sync
+2026-05-15T15:54:46.242Z INFO webdriver: DATA {"script":"mobile: alert","args":[{"action":"accept","buttonLabel":"Allow"}]}
+2026-05-15T15:54:47.319Z INFO webdriver: RESULT null
+Clicked: Allow
+2026-05-15T15:54:47.320Z INFO webdriver: COMMAND findElement("xpath", "(//XCUIElementTypeOther[@traits="Header"])[3]")
+2026-05-15T15:54:47.320Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:54:47.320Z INFO webdriver: DATA {"using":"xpath","value":"(//XCUIElementTypeOther[@traits=\"Header\"])[3]"}
+2026-05-15T15:54:47.403Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at XCUITestDriver.doNativeFind (/private/tmp/devicefarm-workspace/execution-e402d12x/test-package-94_ke_43/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at XCUITestDriver.findNativeElementOrElements (/private/tmp/devicefarm-workspace/execution-e402d12x/test-package-94_ke_43/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+    '    at XCUITestDriver.findElOrEls (/private/tmp/devicefarm-workspace/execution-e402d12x/test-package-94_ke_43/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+    '    at XCUITestDriver.findElOrElsWithProcessing (/private/tmp/devicefarm-workspace/execution-e402d12x/test-package-94_ke_43/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+    '    at XCUITestDriver.findElement (/private/tmp/devicefarm-workspace/execution-e402d12x/test-package-94_ke_43/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)'
+}
+2026-05-15T15:54:47.407Z INFO webdriver: COMMAND findElement("xpath", "(//XCUIElementTypeOther[@traits="Header"])[3]")
+2026-05-15T15:54:47.407Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:54:47.407Z INFO webdriver: DATA {"using":"xpath","value":"(//XCUIElementTypeOther[@traits=\"Header\"])[3]"}
+2026-05-15T15:54:47.504Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '19000000-0000-0000-8302-000000000000',
+  ELEMENT: '19000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:54:47.506Z INFO webdriver: COMMAND isElementDisplayed("19000000-0000-0000-8302-000000000000")
+2026-05-15T15:54:47.506Z INFO webdriver: [GET] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element/19000000-0000-0000-8302-000000000000/displayed
+2026-05-15T15:54:47.553Z INFO webdriver: RESULT true
+2026-05-15T15:54:47.553Z INFO webdriver: COMMAND findElement("xpath", "(//XCUIElementTypeOther[@traits="Header"])[3]")
+2026-05-15T15:54:47.553Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:54:47.553Z INFO webdriver: DATA {"using":"xpath","value":"(//XCUIElementTypeOther[@traits=\"Header\"])[3]"}
+2026-05-15T15:54:47.660Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '19000000-0000-0000-8302-000000000000',
+  ELEMENT: '19000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:54:47.662Z INFO webdriver: COMMAND elementClick("19000000-0000-0000-8302-000000000000")
+2026-05-15T15:54:47.663Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element/19000000-0000-0000-8302-000000000000/click
+2026-05-15T15:54:47.663Z INFO webdriver: DATA {}
+2026-05-15T15:54:48.074Z INFO webdriver: RESULT null
+2026-05-15T15:54:53.076Z INFO webdriver: COMMAND performActions(<object>)
+2026-05-15T15:54:53.076Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/actions
+2026-05-15T15:54:53.076Z INFO webdriver: DATA {"actions":[{"type":"pointer","id":"finger1","parameters":{"pointerType":"touch"},"actions":[{"type":"pointerMove","duration":0,"x":268,"y":540},{"type":"pointerDown","button":0},{"type":"pause","duration":100},{"type":"pointerUp","button":0}]}]}
+2026-05-15T15:54:53.715Z INFO webdriver: RESULT null
+2026-05-15T15:54:53.715Z INFO webdriver: COMMAND releaseActions()
+2026-05-15T15:54:53.715Z INFO webdriver: [DELETE] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/actions
+2026-05-15T15:54:53.718Z INFO webdriver: RESULT null
+✅ App initial screen handled
+2026-05-15T15:54:53.718Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeStaticText[@label="Login" and @enabled="true"]")
+2026-05-15T15:54:53.718Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:54:53.718Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeStaticText[@label=\"Login\" and @enabled=\"true\"]"}
+2026-05-15T15:54:53.848Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '29000000-0000-0000-8302-000000000000',
+  ELEMENT: '29000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:54:53.851Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeStaticText[@label="Login" and @enabled="true"]")
+2026-05-15T15:54:53.851Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:54:53.851Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeStaticText[@label=\"Login\" and @enabled=\"true\"]"}
+2026-05-15T15:54:53.964Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '29000000-0000-0000-8302-000000000000',
+    ELEMENT: '29000000-0000-0000-8302-000000000000'
+  }
+]
+2026-05-15T15:54:53.967Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeStaticText[@label="Login" and @enabled="true"]")
+2026-05-15T15:54:53.967Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:54:53.967Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeStaticText[@label=\"Login\" and @enabled=\"true\"]"}
+2026-05-15T15:54:54.094Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '29000000-0000-0000-8302-000000000000',
+  ELEMENT: '29000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:54:54.096Z INFO webdriver: COMMAND elementClick("29000000-0000-0000-8302-000000000000")
+2026-05-15T15:54:54.096Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element/29000000-0000-0000-8302-000000000000/click
+2026-05-15T15:54:54.096Z INFO webdriver: DATA {}
+2026-05-15T15:54:54.478Z INFO webdriver: RESULT null
+2026-05-15T15:54:54.479Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeImage[@name="Individual"]")
+2026-05-15T15:54:54.479Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:54:54.479Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeImage[@name=\"Individual\"]"}
+2026-05-15T15:54:54.596Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '35000000-0000-0000-8302-000000000000',
+  ELEMENT: '35000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:54:54.598Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeImage[@name="Individual"]")
+2026-05-15T15:54:54.598Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:54:54.598Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeImage[@name=\"Individual\"]"}
+2026-05-15T15:54:54.707Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '35000000-0000-0000-8302-000000000000',
+    ELEMENT: '35000000-0000-0000-8302-000000000000'
+  }
+]
+2026-05-15T15:54:54.709Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeImage[@name="Individual"]")
+2026-05-15T15:54:54.709Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:54:54.710Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeImage[@name=\"Individual\"]"}
+2026-05-15T15:54:54.817Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '35000000-0000-0000-8302-000000000000',
+  ELEMENT: '35000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:54:54.819Z INFO webdriver: COMMAND elementClick("35000000-0000-0000-8302-000000000000")
+2026-05-15T15:54:54.819Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element/35000000-0000-0000-8302-000000000000/click
+2026-05-15T15:54:54.820Z INFO webdriver: DATA {}
+2026-05-15T15:54:55.196Z INFO webdriver: RESULT null
+2026-05-15T15:54:55.196Z INFO webdriver: COMMAND findElement("xpath", "//*[contains(@label, "+1") or contains(@name, "+1") or contains(@value, "+1")]")
+2026-05-15T15:54:55.196Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:54:55.196Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label, \"+1\") or contains(@name, \"+1\") or contains(@value, \"+1\")]"}
+2026-05-15T15:54:55.285Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '43000000-0000-0000-8302-000000000000',
+  ELEMENT: '43000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:54:55.287Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label, "+1") or contains(@name, "+1") or contains(@value, "+1")]")
+2026-05-15T15:54:55.287Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:54:55.287Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label, \"+1\") or contains(@name, \"+1\") or contains(@value, \"+1\")]"}
+2026-05-15T15:54:55.406Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '43000000-0000-0000-8302-000000000000',
+    ELEMENT: '43000000-0000-0000-8302-000000000000'
+  }
+]
+2026-05-15T15:54:55.408Z INFO webdriver: COMMAND findElement("xpath", "//*[contains(@label, "+1") or contains(@name, "+1") or contains(@value, "+1")]")
+2026-05-15T15:54:55.408Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:54:55.408Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label, \"+1\") or contains(@name, \"+1\") or contains(@value, \"+1\")]"}
+2026-05-15T15:54:55.543Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '43000000-0000-0000-8302-000000000000',
+  ELEMENT: '43000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:54:55.545Z INFO webdriver: COMMAND elementClick("43000000-0000-0000-8302-000000000000")
+2026-05-15T15:54:55.545Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element/43000000-0000-0000-8302-000000000000/click
+2026-05-15T15:54:55.545Z INFO webdriver: DATA {}
+2026-05-15T15:54:56.077Z INFO webdriver: RESULT null
+2026-05-15T15:54:56.078Z INFO webdriver: COMMAND findElement("xpath", "//*[contains(@label,"+91") or contains(@name,"+91") or contains(@value,"+91")]")
+2026-05-15T15:54:56.078Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:54:56.078Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"+91\") or contains(@name,\"+91\") or contains(@value,\"+91\")]"}
+2026-05-15T15:54:56.198Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '50000000-0000-0000-8302-000000000000',
+  ELEMENT: '50000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:54:56.200Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"+91") or contains(@name,"+91") or contains(@value,"+91")]")
+2026-05-15T15:54:56.200Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:54:56.200Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"+91\") or contains(@name,\"+91\") or contains(@value,\"+91\")]"}
+2026-05-15T15:54:56.294Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '50000000-0000-0000-8302-000000000000',
+    ELEMENT: '50000000-0000-0000-8302-000000000000'
+  }
+]
+2026-05-15T15:54:56.296Z INFO webdriver: COMMAND findElement("xpath", "//*[contains(@label,"+91") or contains(@name,"+91") or contains(@value,"+91")]")
+2026-05-15T15:54:56.296Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:54:56.296Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"+91\") or contains(@name,\"+91\") or contains(@value,\"+91\")]"}
+2026-05-15T15:54:56.404Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '50000000-0000-0000-8302-000000000000',
+  ELEMENT: '50000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:54:56.406Z INFO webdriver: COMMAND elementClick("50000000-0000-0000-8302-000000000000")
+2026-05-15T15:54:56.407Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element/50000000-0000-0000-8302-000000000000/click
+2026-05-15T15:54:56.407Z INFO webdriver: DATA {}
+2026-05-15T15:54:56.773Z INFO webdriver: RESULT null
+2026-05-15T15:54:56.773Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeTextField")
+2026-05-15T15:54:56.773Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:54:56.774Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField"}
+2026-05-15T15:54:56.828Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at XCUITestDriver.doNativeFind (/private/tmp/devicefarm-workspace/execution-e402d12x/test-package-94_ke_43/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at XCUITestDriver.findNativeElementOrElements (/private/tmp/devicefarm-workspace/execution-e402d12x/test-package-94_ke_43/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+    '    at XCUITestDriver.findElOrEls (/private/tmp/devicefarm-workspace/execution-e402d12x/test-package-94_ke_43/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+    '    at XCUITestDriver.findElOrElsWithProcessing (/private/tmp/devicefarm-workspace/execution-e402d12x/test-package-94_ke_43/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+    '    at XCUITestDriver.findElement (/private/tmp/devicefarm-workspace/execution-e402d12x/test-package-94_ke_43/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)'
+}
+2026-05-15T15:54:56.830Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField")
+2026-05-15T15:54:56.830Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:54:56.830Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField"}
+2026-05-15T15:54:56.883Z INFO webdriver: RESULT []
+2026-05-15T15:54:56.931Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField")
+2026-05-15T15:54:56.931Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:54:56.931Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField"}
+2026-05-15T15:54:57.060Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '5E000000-0000-0000-8302-000000000000',
+    ELEMENT: '5E000000-0000-0000-8302-000000000000'
+  }
+]
+2026-05-15T15:54:57.062Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeTextField")
+2026-05-15T15:54:57.062Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:54:57.062Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField"}
+2026-05-15T15:54:57.159Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '5E000000-0000-0000-8302-000000000000',
+  ELEMENT: '5E000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:54:57.160Z INFO webdriver: COMMAND elementClear("5E000000-0000-0000-8302-000000000000")
+2026-05-15T15:54:57.160Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element/5E000000-0000-0000-8302-000000000000/clear
+2026-05-15T15:54:57.160Z INFO webdriver: DATA {}
+2026-05-15T15:54:57.204Z INFO webdriver: RESULT null
+2026-05-15T15:54:57.205Z INFO webdriver: COMMAND elementSendKeys("5E000000-0000-0000-8302-000000000000", "8824875711")
+2026-05-15T15:54:57.205Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element/5E000000-0000-0000-8302-000000000000/value
+2026-05-15T15:54:57.205Z INFO webdriver: DATA {"text":"8824875711"}
+2026-05-15T15:54:58.541Z INFO webdriver: RESULT null
+2026-05-15T15:54:58.542Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeStaticText[@label="Login" and @enabled="true"]")
+2026-05-15T15:54:58.542Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:54:58.542Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeStaticText[@label=\"Login\" and @enabled=\"true\"]"}
+2026-05-15T15:54:58.701Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '5F000000-0000-0000-8302-000000000000',
+  ELEMENT: '5F000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:54:58.702Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeStaticText[@label="Login" and @enabled="true"]")
+2026-05-15T15:54:58.702Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:54:58.702Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeStaticText[@label=\"Login\" and @enabled=\"true\"]"}
+2026-05-15T15:54:58.825Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '5F000000-0000-0000-8302-000000000000',
+    ELEMENT: '5F000000-0000-0000-8302-000000000000'
+  }
+]
+2026-05-15T15:54:58.827Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeStaticText[@label="Login" and @enabled="true"]")
+2026-05-15T15:54:58.828Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:54:58.828Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeStaticText[@label=\"Login\" and @enabled=\"true\"]"}
+2026-05-15T15:54:58.967Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '5F000000-0000-0000-8302-000000000000',
+  ELEMENT: '5F000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:54:58.969Z INFO webdriver: COMMAND elementClick("5F000000-0000-0000-8302-000000000000")
+2026-05-15T15:54:58.969Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element/5F000000-0000-0000-8302-000000000000/click
+2026-05-15T15:54:58.969Z INFO webdriver: DATA {}
+2026-05-15T15:54:59.706Z INFO webdriver: RESULT null
+2026-05-15T15:54:59.706Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"V")
+                             or contains(@name,"V")
+                             or contains(@value,"V")
+                             or contains(@text,"V")]")
+2026-05-15T15:54:59.707Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:54:59.707Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"V\")\n                             or contains(@name,\"V\")\n                             or contains(@value,\"V\")\n                             or contains(@text,\"V\")]"}
+2026-05-15T15:54:59.775Z INFO webdriver: RESULT []
+2026-05-15T15:54:59.776Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"e")
+                             or contains(@name,"e")
+                             or contains(@value,"e")
+                             or contains(@text,"e")]")
+2026-05-15T15:54:59.776Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:54:59.776Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"e\")\n                             or contains(@name,\"e\")\n                             or contains(@value,\"e\")\n                             or contains(@text,\"e\")]"}
+2026-05-15T15:54:59.949Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '5B000000-0000-0000-8302-000000000000',
+    ELEMENT: '5B000000-0000-0000-8302-000000000000'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '5C000000-0000-0000-8302-000000000000',
+    ELEMENT: '5C000000-0000-0000-8302-000000000000'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '60000000-0000-0000-8302-000000000000',
+    ELEMENT: '60000000-0000-0000-8302-000000000000'
+  }
+]
+Found text: e
+2026-05-15T15:54:59.951Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:54:59.951Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:54:59.951Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:00.026Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at XCUITestDriver.doNativeFind (/private/tmp/devicefarm-workspace/execution-e402d12x/test-package-94_ke_43/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at XCUITestDriver.findNativeElementOrElements (/private/tmp/devicefarm-workspace/execution-e402d12x/test-package-94_ke_43/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+    '    at XCUITestDriver.findElOrEls (/private/tmp/devicefarm-workspace/execution-e402d12x/test-package-94_ke_43/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+    '    at XCUITestDriver.findElOrElsWithProcessing (/private/tmp/devicefarm-workspace/execution-e402d12x/test-package-94_ke_43/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+    '    at XCUITestDriver.findElement (/private/tmp/devicefarm-workspace/execution-e402d12x/test-package-94_ke_43/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)'
+}
+2026-05-15T15:55:00.028Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:00.029Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:00.029Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:00.091Z INFO webdriver: RESULT []
+2026-05-15T15:55:00.129Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:00.129Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:00.129Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:00.217Z INFO webdriver: RESULT []
+2026-05-15T15:55:00.229Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:00.229Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:00.229Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:00.302Z INFO webdriver: RESULT []
+2026-05-15T15:55:00.329Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:00.329Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:00.329Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:00.408Z INFO webdriver: RESULT []
+2026-05-15T15:55:00.429Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:00.430Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:00.430Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:00.513Z INFO webdriver: RESULT []
+2026-05-15T15:55:00.531Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:00.531Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:00.531Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:00.615Z INFO webdriver: RESULT []
+2026-05-15T15:55:00.629Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:00.629Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:00.629Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:00.707Z INFO webdriver: RESULT []
+2026-05-15T15:55:00.729Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:00.730Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:00.730Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:00.808Z INFO webdriver: RESULT []
+2026-05-15T15:55:00.831Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:00.831Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:00.832Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:00.916Z INFO webdriver: RESULT []
+2026-05-15T15:55:00.930Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:00.931Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:00.931Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:01.006Z INFO webdriver: RESULT []
+2026-05-15T15:55:01.031Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:01.031Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:01.031Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:01.124Z INFO webdriver: RESULT []
+2026-05-15T15:55:01.130Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:01.130Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:01.130Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:01.207Z INFO webdriver: RESULT []
+2026-05-15T15:55:01.231Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:01.231Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:01.231Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:01.284Z INFO webdriver: RESULT []
+2026-05-15T15:55:01.330Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:01.330Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:01.330Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:01.380Z INFO webdriver: RESULT []
+2026-05-15T15:55:01.431Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:01.431Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:01.431Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:01.487Z INFO webdriver: RESULT []
+2026-05-15T15:55:01.530Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:01.530Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:01.530Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:01.582Z INFO webdriver: RESULT []
+2026-05-15T15:55:01.630Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:01.630Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:01.630Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:01.682Z INFO webdriver: RESULT []
+2026-05-15T15:55:01.729Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:01.730Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:01.730Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:01.816Z INFO webdriver: RESULT []
+2026-05-15T15:55:01.831Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:01.831Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:01.831Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:01.918Z INFO webdriver: RESULT []
+2026-05-15T15:55:01.931Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:01.931Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:01.931Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:02.002Z INFO webdriver: RESULT []
+2026-05-15T15:55:02.031Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:02.031Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:02.031Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:02.119Z INFO webdriver: RESULT []
+2026-05-15T15:55:02.131Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:02.131Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:02.131Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:02.210Z INFO webdriver: RESULT []
+2026-05-15T15:55:02.230Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:02.231Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:02.231Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:02.318Z INFO webdriver: RESULT []
+2026-05-15T15:55:02.330Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:02.330Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:02.330Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:02.417Z INFO webdriver: RESULT []
+2026-05-15T15:55:02.433Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:02.433Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:02.433Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:02.530Z INFO webdriver: RESULT []
+2026-05-15T15:55:02.533Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:02.533Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:02.533Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:02.626Z INFO webdriver: RESULT []
+2026-05-15T15:55:02.628Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:02.628Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:02.628Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:02.698Z INFO webdriver: RESULT []
+2026-05-15T15:55:02.731Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:02.731Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:02.731Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:02.812Z INFO webdriver: RESULT []
+2026-05-15T15:55:02.830Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:02.830Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:02.830Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:02.921Z INFO webdriver: RESULT []
+2026-05-15T15:55:02.931Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:02.931Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:02.931Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:03.002Z INFO webdriver: RESULT []
+2026-05-15T15:55:03.032Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:03.032Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:03.032Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:03.120Z INFO webdriver: RESULT []
+2026-05-15T15:55:03.129Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:03.129Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:03.129Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:03.203Z INFO webdriver: RESULT []
+2026-05-15T15:55:03.230Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:03.230Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:03.230Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:03.312Z INFO webdriver: RESULT []
+2026-05-15T15:55:03.328Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:03.329Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:03.329Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:03.411Z INFO webdriver: RESULT []
+2026-05-15T15:55:03.429Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:03.430Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:03.430Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:03.518Z INFO webdriver: RESULT []
+2026-05-15T15:55:03.532Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:03.532Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:03.532Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:03.628Z INFO webdriver: RESULT []
+2026-05-15T15:55:03.631Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:03.631Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:03.631Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:03.718Z INFO webdriver: RESULT []
+2026-05-15T15:55:03.732Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:03.732Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:03.732Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:03.822Z INFO webdriver: RESULT []
+2026-05-15T15:55:03.829Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:03.829Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:03.829Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:03.931Z INFO webdriver: RESULT []
+2026-05-15T15:55:03.934Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:03.934Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:03.934Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:04.025Z INFO webdriver: RESULT []
+2026-05-15T15:55:04.030Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:04.030Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:04.030Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:04.099Z INFO webdriver: RESULT []
+2026-05-15T15:55:04.128Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:04.128Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:04.128Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:04.213Z INFO webdriver: RESULT []
+2026-05-15T15:55:04.230Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:04.231Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:04.231Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:04.311Z INFO webdriver: RESULT []
+2026-05-15T15:55:04.331Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:04.331Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:04.331Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:04.413Z INFO webdriver: RESULT []
+2026-05-15T15:55:04.430Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:04.430Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:04.430Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:04.510Z INFO webdriver: RESULT []
+2026-05-15T15:55:04.529Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:04.529Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:04.529Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:04.612Z INFO webdriver: RESULT []
+2026-05-15T15:55:04.628Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:04.628Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:04.628Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:04.710Z INFO webdriver: RESULT []
+2026-05-15T15:55:04.728Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:04.728Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:04.728Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:04.802Z INFO webdriver: RESULT []
+2026-05-15T15:55:04.831Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:04.831Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:04.831Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:04.930Z INFO webdriver: RESULT []
+2026-05-15T15:55:04.933Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:04.933Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:04.933Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:05.008Z INFO webdriver: RESULT []
+2026-05-15T15:55:05.031Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:05.031Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:05.032Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:05.129Z INFO webdriver: RESULT []
+2026-05-15T15:55:05.132Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:05.132Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:05.132Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:05.226Z INFO webdriver: RESULT []
+2026-05-15T15:55:05.229Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:05.229Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:05.229Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:05.330Z INFO webdriver: RESULT []
+2026-05-15T15:55:05.333Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:05.333Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:05.333Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:05.425Z INFO webdriver: RESULT []
+2026-05-15T15:55:05.429Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:05.429Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:05.429Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:05.523Z INFO webdriver: RESULT []
+2026-05-15T15:55:05.529Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:05.529Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:05.529Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:05.598Z INFO webdriver: RESULT []
+2026-05-15T15:55:05.629Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:05.629Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:05.629Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:05.717Z INFO webdriver: RESULT []
+2026-05-15T15:55:05.729Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:05.729Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:05.729Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:05.810Z INFO webdriver: RESULT []
+2026-05-15T15:55:05.830Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:05.830Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:05.830Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:05.914Z INFO webdriver: RESULT []
+2026-05-15T15:55:05.929Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:05.929Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:05.929Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:06.004Z INFO webdriver: RESULT []
+2026-05-15T15:55:06.030Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:06.030Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:06.030Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:06.110Z INFO webdriver: RESULT []
+2026-05-15T15:55:06.131Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:06.131Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:06.131Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:06.218Z INFO webdriver: RESULT []
+2026-05-15T15:55:06.231Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:06.231Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:06.231Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:06.313Z INFO webdriver: RESULT []
+2026-05-15T15:55:06.331Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:06.331Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:06.331Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:06.430Z INFO webdriver: RESULT []
+2026-05-15T15:55:06.432Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:06.432Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:06.432Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:06.528Z INFO webdriver: RESULT []
+2026-05-15T15:55:06.530Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:06.530Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:06.530Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:06.606Z INFO webdriver: RESULT []
+2026-05-15T15:55:06.630Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:06.630Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:06.630Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:06.711Z INFO webdriver: RESULT []
+2026-05-15T15:55:06.730Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:06.731Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:06.731Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:06.831Z INFO webdriver: RESULT []
+2026-05-15T15:55:06.833Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:06.833Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:06.833Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:06.925Z INFO webdriver: RESULT []
+2026-05-15T15:55:06.929Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:06.929Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:06.929Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:07.005Z INFO webdriver: RESULT []
+2026-05-15T15:55:07.028Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:07.028Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:07.028Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:07.106Z INFO webdriver: RESULT []
+2026-05-15T15:55:07.130Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:07.130Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:07.130Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:07.211Z INFO webdriver: RESULT []
+2026-05-15T15:55:07.229Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:07.230Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:07.230Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:07.306Z INFO webdriver: RESULT []
+2026-05-15T15:55:07.331Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:07.331Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:07.331Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:07.413Z INFO webdriver: RESULT []
+2026-05-15T15:55:07.431Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:07.431Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:07.431Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:07.513Z INFO webdriver: RESULT []
+2026-05-15T15:55:07.531Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:07.531Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:07.531Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:07.633Z INFO webdriver: RESULT []
+2026-05-15T15:55:07.635Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:07.635Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:07.635Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:07.721Z INFO webdriver: RESULT []
+2026-05-15T15:55:07.730Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:07.731Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:07.731Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:07.825Z INFO webdriver: RESULT []
+2026-05-15T15:55:07.829Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:07.830Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:07.830Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:07.918Z INFO webdriver: RESULT []
+2026-05-15T15:55:07.930Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:07.930Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:07.930Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:08.021Z INFO webdriver: RESULT []
+2026-05-15T15:55:08.030Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:08.030Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:08.030Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:08.129Z INFO webdriver: RESULT []
+2026-05-15T15:55:08.131Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:08.131Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:08.131Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:08.229Z INFO webdriver: RESULT []
+2026-05-15T15:55:08.231Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:08.231Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:08.231Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:08.303Z INFO webdriver: RESULT []
+2026-05-15T15:55:08.329Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:08.329Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:08.329Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:08.411Z INFO webdriver: RESULT []
+2026-05-15T15:55:08.429Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:08.429Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:08.429Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:08.509Z INFO webdriver: RESULT []
+2026-05-15T15:55:08.528Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:08.528Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:08.528Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:08.609Z INFO webdriver: RESULT []
+2026-05-15T15:55:08.629Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:08.629Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:08.629Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:08.719Z INFO webdriver: RESULT []
+2026-05-15T15:55:08.729Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:08.729Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:08.729Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:08.808Z INFO webdriver: RESULT []
+2026-05-15T15:55:08.831Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:08.832Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:08.832Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:08.915Z INFO webdriver: RESULT []
+2026-05-15T15:55:08.929Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:08.929Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:08.929Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:09.004Z INFO webdriver: RESULT []
+2026-05-15T15:55:09.030Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:09.031Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:09.031Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:09.117Z INFO webdriver: RESULT []
+2026-05-15T15:55:09.130Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:09.130Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:09.130Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:09.208Z INFO webdriver: RESULT []
+2026-05-15T15:55:09.231Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:09.231Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:09.231Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:09.305Z INFO webdriver: RESULT []
+2026-05-15T15:55:09.329Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:09.329Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:09.329Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:09.404Z INFO webdriver: RESULT []
+2026-05-15T15:55:09.430Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:09.430Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:09.430Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:09.527Z INFO webdriver: RESULT []
+2026-05-15T15:55:09.530Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:09.530Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:09.530Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:09.604Z INFO webdriver: RESULT []
+2026-05-15T15:55:09.630Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:09.630Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:09.630Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:09.716Z INFO webdriver: RESULT []
+2026-05-15T15:55:09.729Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:09.729Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:09.729Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:09.818Z INFO webdriver: RESULT []
+2026-05-15T15:55:09.830Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:09.830Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:09.830Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:10.019Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '9A000000-0000-0000-8302-000000000000',
+    ELEMENT: '9A000000-0000-0000-8302-000000000000'
+  }
+]
+2026-05-15T15:55:10.020Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-15T15:55:10.020Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:55:10.020Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-15T15:55:10.588Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '9A000000-0000-0000-8302-000000000000',
+  ELEMENT: '9A000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:55:10.589Z INFO webdriver: COMMAND elementClear("9A000000-0000-0000-8302-000000000000")
+2026-05-15T15:55:10.590Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element/9A000000-0000-0000-8302-000000000000/clear
+2026-05-15T15:55:10.590Z INFO webdriver: DATA {}
+2026-05-15T15:55:10.641Z INFO webdriver: RESULT null
+2026-05-15T15:55:10.642Z INFO webdriver: COMMAND elementSendKeys("9A000000-0000-0000-8302-000000000000", "657129")
+2026-05-15T15:55:10.642Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element/9A000000-0000-0000-8302-000000000000/value
+2026-05-15T15:55:10.642Z INFO webdriver: DATA {"text":"657129"}
+2026-05-15T15:55:11.066Z INFO webdriver: RESULT null
+2026-05-15T15:55:21.069Z INFO webdriver: COMMAND executeScript("mobile: alert", <object>)
+2026-05-15T15:55:21.069Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/execute/sync
+2026-05-15T15:55:21.069Z INFO webdriver: DATA {"script":"mobile: alert","args":[{"action":"getButtons"}]}
+2026-05-15T15:55:21.289Z INFO webdriver: Retrying 1/3
+2026-05-15T15:55:21.289Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/execute/sync
+2026-05-15T15:55:21.289Z INFO webdriver: DATA {"script":"mobile: alert","args":[{"action":"getButtons"}]}
+2026-05-15T15:55:21.995Z INFO webdriver: Retrying 2/3
+2026-05-15T15:55:21.995Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/execute/sync
+2026-05-15T15:55:21.995Z INFO webdriver: DATA {"script":"mobile: alert","args":[{"action":"getButtons"}]}
+2026-05-15T15:55:23.211Z INFO webdriver: Retrying 3/3
+2026-05-15T15:55:23.211Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/execute/sync
+2026-05-15T15:55:23.211Z INFO webdriver: DATA {"script":"mobile: alert","args":[{"action":"getButtons"}]}
+2026-05-15T15:55:25.412Z INFO webdriver: COMMAND executeScript("mobile: alert", <object>)
+2026-05-15T15:55:25.412Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/execute/sync
+2026-05-15T15:55:25.412Z INFO webdriver: DATA {"script":"mobile: alert","args":[{"action":"getButtons"}]}
+2026-05-15T15:55:25.627Z INFO webdriver: Retrying 1/3
+2026-05-15T15:55:25.627Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/execute/sync
+2026-05-15T15:55:25.627Z INFO webdriver: DATA {"script":"mobile: alert","args":[{"action":"getButtons"}]}
+2026-05-15T15:55:26.273Z INFO webdriver: Retrying 2/3
+2026-05-15T15:55:26.273Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/execute/sync
+2026-05-15T15:55:26.273Z INFO webdriver: DATA {"script":"mobile: alert","args":[{"action":"getButtons"}]}
+2026-05-15T15:55:27.478Z INFO webdriver: Retrying 3/3
+2026-05-15T15:55:27.478Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/execute/sync
+2026-05-15T15:55:27.478Z INFO webdriver: DATA {"script":"mobile: alert","args":[{"action":"getButtons"}]}
+2026-05-15T15:55:29.686Z INFO webdriver: COMMAND executeScript("mobile: alert", <object>)
+2026-05-15T15:55:29.686Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/execute/sync
+2026-05-15T15:55:29.687Z INFO webdriver: DATA {"script":"mobile: alert","args":[{"action":"getButtons"}]}
+2026-05-15T15:55:29.893Z INFO webdriver: Retrying 1/3
+2026-05-15T15:55:29.893Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/execute/sync
+2026-05-15T15:55:29.893Z INFO webdriver: DATA {"script":"mobile: alert","args":[{"action":"getButtons"}]}
+2026-05-15T15:55:30.582Z INFO webdriver: Retrying 2/3
+2026-05-15T15:55:30.582Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/execute/sync
+2026-05-15T15:55:30.582Z INFO webdriver: DATA {"script":"mobile: alert","args":[{"action":"getButtons"}]}
+2026-05-15T15:55:31.812Z INFO webdriver: Retrying 3/3
+2026-05-15T15:55:31.813Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/execute/sync
+2026-05-15T15:55:31.813Z INFO webdriver: DATA {"script":"mobile: alert","args":[{"action":"getButtons"}]}
+No alert handled
+2026-05-15T15:55:38.965Z INFO webdriver: COMMAND findElement("xpath", "(//XCUIElementTypeOther[@traits="Header"])[3]")
+2026-05-15T15:55:38.965Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:55:38.965Z INFO webdriver: DATA {"using":"xpath","value":"(//XCUIElementTypeOther[@traits=\"Header\"])[3]"}
+2026-05-15T15:55:39.105Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'AC000000-0000-0000-8302-000000000000',
+  ELEMENT: 'AC000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:55:39.108Z INFO webdriver: COMMAND findElements("xpath", "(//XCUIElementTypeOther[@traits="Header"])[3]")
+2026-05-15T15:55:39.108Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:39.108Z INFO webdriver: DATA {"using":"xpath","value":"(//XCUIElementTypeOther[@traits=\"Header\"])[3]"}
+2026-05-15T15:55:39.207Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'AC000000-0000-0000-8302-000000000000',
+    ELEMENT: 'AC000000-0000-0000-8302-000000000000'
+  }
+]
+2026-05-15T15:55:39.209Z INFO webdriver: COMMAND findElement("xpath", "(//XCUIElementTypeOther[@traits="Header"])[3]")
+2026-05-15T15:55:39.210Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:55:39.210Z INFO webdriver: DATA {"using":"xpath","value":"(//XCUIElementTypeOther[@traits=\"Header\"])[3]"}
+2026-05-15T15:55:39.310Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'AC000000-0000-0000-8302-000000000000',
+  ELEMENT: 'AC000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:55:39.312Z INFO webdriver: COMMAND elementClick("AC000000-0000-0000-8302-000000000000")
+2026-05-15T15:55:39.312Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element/AC000000-0000-0000-8302-000000000000/click
+2026-05-15T15:55:39.312Z INFO webdriver: DATA {}
+2026-05-15T15:55:39.719Z INFO webdriver: RESULT null
+2026-05-15T15:55:39.719Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeStaticText[contains(@name,"Settings")]")
+2026-05-15T15:55:39.719Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:55:39.719Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeStaticText[contains(@name,\"Settings\")]"}
+2026-05-15T15:55:39.880Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'B4000000-0000-0000-8302-000000000000',
+  ELEMENT: 'B4000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:55:39.882Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeStaticText[contains(@name,"Settings")]")
+2026-05-15T15:55:39.882Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:39.882Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeStaticText[contains(@name,\"Settings\")]"}
+2026-05-15T15:55:40.054Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'B4000000-0000-0000-8302-000000000000',
+    ELEMENT: 'B4000000-0000-0000-8302-000000000000'
+  }
+]
+2026-05-15T15:55:40.056Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeStaticText[contains(@name,"Settings")]")
+2026-05-15T15:55:40.057Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:55:40.057Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeStaticText[contains(@name,\"Settings\")]"}
+2026-05-15T15:55:40.211Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'B4000000-0000-0000-8302-000000000000',
+  ELEMENT: 'B4000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:55:40.213Z INFO webdriver: COMMAND elementClick("B4000000-0000-0000-8302-000000000000")
+2026-05-15T15:55:40.213Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element/B4000000-0000-0000-8302-000000000000/click
+2026-05-15T15:55:40.213Z INFO webdriver: DATA {}
+2026-05-15T15:55:40.581Z INFO webdriver: RESULT null
+2026-05-15T15:55:40.581Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeButton[contains(@name,"Delete Account")]")
+2026-05-15T15:55:40.581Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:55:40.581Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeButton[contains(@name,\"Delete Account\")]"}
+2026-05-15T15:55:40.748Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'E2000000-0000-0000-8302-000000000000',
+  ELEMENT: 'E2000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:55:40.750Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeButton[contains(@name,"Delete Account")]")
+2026-05-15T15:55:40.750Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:40.750Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeButton[contains(@name,\"Delete Account\")]"}
+2026-05-15T15:55:40.893Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'E2000000-0000-0000-8302-000000000000',
+    ELEMENT: 'E2000000-0000-0000-8302-000000000000'
+  }
+]
+2026-05-15T15:55:40.896Z INFO webdriver: COMMAND isElementDisplayed("E2000000-0000-0000-8302-000000000000")
+2026-05-15T15:55:40.896Z INFO webdriver: [GET] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element/E2000000-0000-0000-8302-000000000000/displayed
+2026-05-15T15:55:40.938Z INFO webdriver: RESULT false
+2026-05-15T15:55:40.938Z INFO webdriver: COMMAND executeScript("mobile: swipe", <object>)
+2026-05-15T15:55:40.939Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/execute/sync
+2026-05-15T15:55:40.939Z INFO webdriver: DATA {"script":"mobile: swipe","args":[{"direction":"up"}]}
+2026-05-15T15:55:41.440Z INFO webdriver: RESULT null
+2026-05-15T15:55:42.244Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeButton[contains(@name,"Delete Account")]")
+2026-05-15T15:55:42.244Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:42.244Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeButton[contains(@name,\"Delete Account\")]"}
+2026-05-15T15:55:42.443Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'E2000000-0000-0000-8302-000000000000',
+    ELEMENT: 'E2000000-0000-0000-8302-000000000000'
+  }
+]
+2026-05-15T15:55:42.445Z INFO webdriver: COMMAND isElementDisplayed("E2000000-0000-0000-8302-000000000000")
+2026-05-15T15:55:42.446Z INFO webdriver: [GET] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element/E2000000-0000-0000-8302-000000000000/displayed
+2026-05-15T15:55:42.504Z INFO webdriver: RESULT true
+2026-05-15T15:55:47.505Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeButton[contains(@name,"Help & Support")]")
+2026-05-15T15:55:47.506Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:55:47.506Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeButton[contains(@name,\"Help & Support\")]"}
+2026-05-15T15:55:47.695Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'DF000000-0000-0000-8302-000000000000',
+  ELEMENT: 'DF000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:55:47.697Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeButton[contains(@name,"Help & Support")]")
+2026-05-15T15:55:47.697Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:47.697Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeButton[contains(@name,\"Help & Support\")]"}
+2026-05-15T15:55:47.861Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'DF000000-0000-0000-8302-000000000000',
+    ELEMENT: 'DF000000-0000-0000-8302-000000000000'
+  }
+]
+2026-05-15T15:55:47.863Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeButton[contains(@name,"Help & Support")]")
+2026-05-15T15:55:47.864Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:55:47.864Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeButton[contains(@name,\"Help & Support\")]"}
+2026-05-15T15:55:48.004Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'DF000000-0000-0000-8302-000000000000',
+  ELEMENT: 'DF000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:55:48.006Z INFO webdriver: COMMAND elementClick("DF000000-0000-0000-8302-000000000000")
+2026-05-15T15:55:48.006Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element/DF000000-0000-0000-8302-000000000000/click
+2026-05-15T15:55:48.006Z INFO webdriver: DATA {}
+2026-05-15T15:55:48.397Z INFO webdriver: RESULT null
+2026-05-15T15:55:48.397Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeTextField[@name="Email"]")
+2026-05-15T15:55:48.397Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:55:48.397Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"Email\"]"}
+2026-05-15T15:55:48.532Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'F2000000-0000-0000-8302-000000000000',
+  ELEMENT: 'F2000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:55:48.535Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="Email"]")
+2026-05-15T15:55:48.535Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:48.535Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"Email\"]"}
+2026-05-15T15:55:48.656Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'F2000000-0000-0000-8302-000000000000',
+    ELEMENT: 'F2000000-0000-0000-8302-000000000000'
+  }
+]
+2026-05-15T15:55:48.659Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeTextField[@name="Email"]")
+2026-05-15T15:55:48.659Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:55:48.659Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"Email\"]"}
+2026-05-15T15:55:48.780Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'F2000000-0000-0000-8302-000000000000',
+  ELEMENT: 'F2000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:55:48.782Z INFO webdriver: COMMAND elementClear("F2000000-0000-0000-8302-000000000000")
+2026-05-15T15:55:48.782Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element/F2000000-0000-0000-8302-000000000000/clear
+2026-05-15T15:55:48.782Z INFO webdriver: DATA {}
+2026-05-15T15:55:48.844Z INFO webdriver: RESULT null
+2026-05-15T15:55:48.844Z INFO webdriver: COMMAND elementSendKeys("F2000000-0000-0000-8302-000000000000", "pranavsoni176@gmail.com")
+2026-05-15T15:55:48.844Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element/F2000000-0000-0000-8302-000000000000/value
+2026-05-15T15:55:48.844Z INFO webdriver: DATA {"text":"pranavsoni176@gmail.com"}
+2026-05-15T15:55:50.335Z INFO webdriver: RESULT null
+2026-05-15T15:55:50.335Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeButton[@name="Ticket Type"]")
+2026-05-15T15:55:50.335Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:55:50.335Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeButton[@name=\"Ticket Type\"]"}
+2026-05-15T15:55:50.569Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'F3000000-0000-0000-8302-000000000000',
+  ELEMENT: 'F3000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:55:50.570Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeButton[@name="Ticket Type"]")
+2026-05-15T15:55:50.570Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:50.570Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeButton[@name=\"Ticket Type\"]"}
+2026-05-15T15:55:50.757Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'F3000000-0000-0000-8302-000000000000',
+    ELEMENT: 'F3000000-0000-0000-8302-000000000000'
+  }
+]
+2026-05-15T15:55:50.759Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeButton[@name="Ticket Type"]")
+2026-05-15T15:55:50.759Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:55:50.759Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeButton[@name=\"Ticket Type\"]"}
+2026-05-15T15:55:50.936Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'F3000000-0000-0000-8302-000000000000',
+  ELEMENT: 'F3000000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:55:50.938Z INFO webdriver: COMMAND elementClick("F3000000-0000-0000-8302-000000000000")
+2026-05-15T15:55:50.938Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element/F3000000-0000-0000-8302-000000000000/click
+2026-05-15T15:55:50.938Z INFO webdriver: DATA {}
+2026-05-15T15:55:51.687Z INFO webdriver: RESULT null
+2026-05-15T15:55:51.687Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeButton[@name="Technical Issue"]")
+2026-05-15T15:55:51.687Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:55:51.687Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeButton[@name=\"Technical Issue\"]"}
+2026-05-15T15:55:51.783Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '30010000-0000-0000-8302-000000000000',
+  ELEMENT: '30010000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:55:51.784Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeButton[@name="Technical Issue"]")
+2026-05-15T15:55:51.785Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/elements
+2026-05-15T15:55:51.785Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeButton[@name=\"Technical Issue\"]"}
+2026-05-15T15:55:51.917Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '30010000-0000-0000-8302-000000000000',
+    ELEMENT: '30010000-0000-0000-8302-000000000000'
+  }
+]
+2026-05-15T15:55:51.919Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeButton[@name="Technical Issue"]")
+2026-05-15T15:55:51.919Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:55:51.919Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeButton[@name=\"Technical Issue\"]"}
+2026-05-15T15:55:52.052Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '30010000-0000-0000-8302-000000000000',
+  ELEMENT: '30010000-0000-0000-8302-000000000000'
+}
+2026-05-15T15:55:52.053Z INFO webdriver: COMMAND elementClick("30010000-0000-0000-8302-000000000000")
+2026-05-15T15:55:52.053Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element/30010000-0000-0000-8302-000000000000/click
+2026-05-15T15:55:52.053Z INFO webdriver: DATA {}
+2026-05-15T15:55:52.445Z INFO webdriver: RESULT null
+2026-05-15T15:55:52.454Z INFO webdriver: COMMAND takeScreenshot()
+2026-05-15T15:55:52.454Z INFO webdriver: [GET] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/screenshot
+2026-05-15T15:55:52.455Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeTextField[@name="Title"]")
+2026-05-15T15:55:52.455Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0b72217a-42b7-45d2-ac53-3cda2a4fd06a/element
+2026-05-15T15:55:52.455Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"Title\"]"}
+2026-05-15T15:55:52.856Z INFO webdriver: RESULT iVBORw0KGgoAAAANSUhEUgAABJoAAAn8CAIAAAAlcRxWAAAAAXNSR0IArs4c6...
