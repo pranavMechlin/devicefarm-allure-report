@@ -1,1 +1,1 @@
-{"total":1,"items":[{"uid":"5893a0638b5fcc38f29c560b319f4cf0","name":"Individual login flow","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}
+{"total":2,"items":[{"uid":"5893a0638b5fcc38f29c560b319f4cf0","name":"Individual login flow","statistic":{"failed":0,"broken":5,"skipped":0,"passed":4,"unknown":0,"total":9}},{"uid":"55daac8b84891d7b38e4f7db75563c8e","name":"buisness flow","statistic":{"failed":0,"broken":0,"skipped":0,"passed":7,"unknown":0,"total":7}}]}

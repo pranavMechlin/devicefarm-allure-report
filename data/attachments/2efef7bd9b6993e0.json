@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[contains(@label,\"Choose your interests\") \n                   or contains(@name,\"Choose your interests\") \n                   or contains(@value,\"Choose your interests\") \n                   or contains(@text,\"Choose your interests\")]"
+}

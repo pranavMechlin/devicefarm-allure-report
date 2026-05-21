@@ -1,0 +1,1067 @@
+.........Console Logs.........
+
+2026-05-21T22:52:42.226Z INFO webdriver: COMMAND executeScript("mobile: alert", <object>)
+2026-05-21T22:52:42.226Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/execute/sync
+2026-05-21T22:52:42.226Z INFO webdriver: DATA {"script":"mobile: alert","args":[{"action":"getButtons"}]}
+2026-05-21T22:52:42.537Z INFO webdriver: RESULT [ 'Don’t Allow', 'Allow' ]
+Alert Buttons: [ 'Don’t Allow', 'Allow' ]
+2026-05-21T22:52:42.537Z INFO webdriver: COMMAND executeScript("mobile: alert", <object>)
+2026-05-21T22:52:42.537Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/execute/sync
+2026-05-21T22:52:42.537Z INFO webdriver: DATA {"script":"mobile: alert","args":[{"action":"accept","buttonLabel":"Allow"}]}
+2026-05-21T22:52:45.170Z INFO webdriver: RESULT null
+Clicked: Allow
+2026-05-21T22:52:45.170Z INFO webdriver: COMMAND findElement("xpath", "(//XCUIElementTypeOther[@traits="Header"])[3]")
+2026-05-21T22:52:45.170Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:52:45.170Z INFO webdriver: DATA {"using":"xpath","value":"(//XCUIElementTypeOther[@traits=\"Header\"])[3]"}
+2026-05-21T22:52:45.295Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '19000000-0000-0000-5402-000000000000',
+  ELEMENT: '19000000-0000-0000-5402-000000000000'
+}
+2026-05-21T22:52:45.296Z INFO webdriver: COMMAND isElementDisplayed("19000000-0000-0000-5402-000000000000")
+2026-05-21T22:52:45.296Z INFO webdriver: [GET] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element/19000000-0000-0000-5402-000000000000/displayed
+2026-05-21T22:52:45.388Z INFO webdriver: RESULT true
+2026-05-21T22:52:45.388Z INFO webdriver: COMMAND findElement("xpath", "(//XCUIElementTypeOther[@traits="Header"])[3]")
+2026-05-21T22:52:45.388Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:52:45.388Z INFO webdriver: DATA {"using":"xpath","value":"(//XCUIElementTypeOther[@traits=\"Header\"])[3]"}
+2026-05-21T22:52:45.463Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '19000000-0000-0000-5402-000000000000',
+  ELEMENT: '19000000-0000-0000-5402-000000000000'
+}
+2026-05-21T22:52:45.464Z INFO webdriver: COMMAND elementClick("19000000-0000-0000-5402-000000000000")
+2026-05-21T22:52:45.464Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element/19000000-0000-0000-5402-000000000000/click
+2026-05-21T22:52:45.465Z INFO webdriver: DATA {}
+2026-05-21T22:52:45.879Z INFO webdriver: RESULT null
+2026-05-21T22:52:50.881Z INFO webdriver: COMMAND performActions(<object>)
+2026-05-21T22:52:50.881Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/actions
+2026-05-21T22:52:50.881Z INFO webdriver: DATA {"actions":[{"type":"pointer","id":"finger1","parameters":{"pointerType":"touch"},"actions":[{"type":"pointerMove","duration":0,"x":268,"y":540},{"type":"pointerDown","button":0},{"type":"pause","duration":100},{"type":"pointerUp","button":0}]}]}
+2026-05-21T22:52:51.391Z INFO webdriver: RESULT null
+2026-05-21T22:52:51.392Z INFO webdriver: COMMAND releaseActions()
+2026-05-21T22:52:51.392Z INFO webdriver: [DELETE] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/actions
+2026-05-21T22:52:51.392Z INFO webdriver: RESULT null
+✅ App initial screen handled
+2026-05-21T22:52:51.393Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeStaticText[@label="Login" and @enabled="true"]")
+2026-05-21T22:52:51.393Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:52:51.393Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeStaticText[@label=\"Login\" and @enabled=\"true\"]"}
+2026-05-21T22:52:51.518Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '29000000-0000-0000-5402-000000000000',
+  ELEMENT: '29000000-0000-0000-5402-000000000000'
+}
+2026-05-21T22:52:51.520Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeStaticText[@label="Login" and @enabled="true"]")
+2026-05-21T22:52:51.520Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:51.520Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeStaticText[@label=\"Login\" and @enabled=\"true\"]"}
+2026-05-21T22:52:51.687Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '29000000-0000-0000-5402-000000000000',
+    ELEMENT: '29000000-0000-0000-5402-000000000000'
+  }
+]
+2026-05-21T22:52:51.689Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeStaticText[@label="Login" and @enabled="true"]")
+2026-05-21T22:52:51.689Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:52:51.689Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeStaticText[@label=\"Login\" and @enabled=\"true\"]"}
+2026-05-21T22:52:51.802Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '29000000-0000-0000-5402-000000000000',
+  ELEMENT: '29000000-0000-0000-5402-000000000000'
+}
+2026-05-21T22:52:51.803Z INFO webdriver: COMMAND elementClick("29000000-0000-0000-5402-000000000000")
+2026-05-21T22:52:51.803Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element/29000000-0000-0000-5402-000000000000/click
+2026-05-21T22:52:51.803Z INFO webdriver: DATA {}
+2026-05-21T22:52:52.213Z INFO webdriver: RESULT null
+2026-05-21T22:52:52.213Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeImage[@name="Business or Brand"]")
+2026-05-21T22:52:52.213Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:52:52.213Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeImage[@name=\"Business or Brand\"]"}
+2026-05-21T22:52:52.299Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '36000000-0000-0000-5402-000000000000',
+  ELEMENT: '36000000-0000-0000-5402-000000000000'
+}
+2026-05-21T22:52:52.301Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeImage[@name="Business or Brand"]")
+2026-05-21T22:52:52.301Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:52.301Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeImage[@name=\"Business or Brand\"]"}
+2026-05-21T22:52:52.408Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '36000000-0000-0000-5402-000000000000',
+    ELEMENT: '36000000-0000-0000-5402-000000000000'
+  }
+]
+2026-05-21T22:52:52.410Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeImage[@name="Business or Brand"]")
+2026-05-21T22:52:52.410Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:52:52.410Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeImage[@name=\"Business or Brand\"]"}
+2026-05-21T22:52:52.508Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '36000000-0000-0000-5402-000000000000',
+  ELEMENT: '36000000-0000-0000-5402-000000000000'
+}
+2026-05-21T22:52:52.509Z INFO webdriver: COMMAND elementClick("36000000-0000-0000-5402-000000000000")
+2026-05-21T22:52:52.509Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element/36000000-0000-0000-5402-000000000000/click
+2026-05-21T22:52:52.509Z INFO webdriver: DATA {}
+2026-05-21T22:52:52.930Z INFO webdriver: RESULT null
+2026-05-21T22:52:52.930Z INFO webdriver: COMMAND findElement("xpath", "//*[contains(@label, "+1") or contains(@name, "+1") or contains(@value, "+1")]")
+2026-05-21T22:52:52.930Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:52:52.931Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label, \"+1\") or contains(@name, \"+1\") or contains(@value, \"+1\")]"}
+2026-05-21T22:52:53.020Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '43000000-0000-0000-5402-000000000000',
+  ELEMENT: '43000000-0000-0000-5402-000000000000'
+}
+2026-05-21T22:52:53.022Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label, "+1") or contains(@name, "+1") or contains(@value, "+1")]")
+2026-05-21T22:52:53.022Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:53.022Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label, \"+1\") or contains(@name, \"+1\") or contains(@value, \"+1\")]"}
+2026-05-21T22:52:53.096Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '43000000-0000-0000-5402-000000000000',
+    ELEMENT: '43000000-0000-0000-5402-000000000000'
+  }
+]
+2026-05-21T22:52:53.097Z INFO webdriver: COMMAND findElement("xpath", "//*[contains(@label, "+1") or contains(@name, "+1") or contains(@value, "+1")]")
+2026-05-21T22:52:53.097Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:52:53.097Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label, \"+1\") or contains(@name, \"+1\") or contains(@value, \"+1\")]"}
+2026-05-21T22:52:53.274Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '43000000-0000-0000-5402-000000000000',
+  ELEMENT: '43000000-0000-0000-5402-000000000000'
+}
+2026-05-21T22:52:53.275Z INFO webdriver: COMMAND elementClick("43000000-0000-0000-5402-000000000000")
+2026-05-21T22:52:53.275Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element/43000000-0000-0000-5402-000000000000/click
+2026-05-21T22:52:53.275Z INFO webdriver: DATA {}
+2026-05-21T22:52:53.649Z INFO webdriver: RESULT null
+2026-05-21T22:52:53.649Z INFO webdriver: COMMAND findElement("xpath", "//*[contains(@label,"+91") or contains(@name,"+91") or contains(@value,"+91")]")
+2026-05-21T22:52:53.649Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:52:53.650Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"+91\") or contains(@name,\"+91\") or contains(@value,\"+91\")]"}
+2026-05-21T22:52:53.764Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '52000000-0000-0000-5402-000000000000',
+  ELEMENT: '52000000-0000-0000-5402-000000000000'
+}
+2026-05-21T22:52:53.766Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"+91") or contains(@name,"+91") or contains(@value,"+91")]")
+2026-05-21T22:52:53.766Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:53.766Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"+91\") or contains(@name,\"+91\") or contains(@value,\"+91\")]"}
+2026-05-21T22:52:53.925Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '52000000-0000-0000-5402-000000000000',
+    ELEMENT: '52000000-0000-0000-5402-000000000000'
+  }
+]
+2026-05-21T22:52:53.926Z INFO webdriver: COMMAND findElement("xpath", "//*[contains(@label,"+91") or contains(@name,"+91") or contains(@value,"+91")]")
+2026-05-21T22:52:53.926Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:52:53.926Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"+91\") or contains(@name,\"+91\") or contains(@value,\"+91\")]"}
+2026-05-21T22:52:54.040Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '52000000-0000-0000-5402-000000000000',
+  ELEMENT: '52000000-0000-0000-5402-000000000000'
+}
+2026-05-21T22:52:54.041Z INFO webdriver: COMMAND elementClick("52000000-0000-0000-5402-000000000000")
+2026-05-21T22:52:54.041Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element/52000000-0000-0000-5402-000000000000/click
+2026-05-21T22:52:54.041Z INFO webdriver: DATA {}
+2026-05-21T22:52:54.430Z INFO webdriver: RESULT null
+2026-05-21T22:52:54.430Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeTextField")
+2026-05-21T22:52:54.430Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:52:54.430Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField"}
+2026-05-21T22:52:54.487Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at XCUITestDriver.doNativeFind (/private/tmp/devicefarm-workspace/execution-tpdsb9n1/test-package-zu6du_jq/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at XCUITestDriver.findNativeElementOrElements (/private/tmp/devicefarm-workspace/execution-tpdsb9n1/test-package-zu6du_jq/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+    '    at XCUITestDriver.findElOrEls (/private/tmp/devicefarm-workspace/execution-tpdsb9n1/test-package-zu6du_jq/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+    '    at XCUITestDriver.findElOrElsWithProcessing (/private/tmp/devicefarm-workspace/execution-tpdsb9n1/test-package-zu6du_jq/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+    '    at XCUITestDriver.findElement (/private/tmp/devicefarm-workspace/execution-tpdsb9n1/test-package-zu6du_jq/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)'
+}
+2026-05-21T22:52:54.488Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField")
+2026-05-21T22:52:54.488Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:54.488Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField"}
+2026-05-21T22:52:54.562Z INFO webdriver: RESULT []
+2026-05-21T22:52:54.591Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField")
+2026-05-21T22:52:54.592Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:54.592Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField"}
+2026-05-21T22:52:54.745Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '60000000-0000-0000-5402-000000000000',
+    ELEMENT: '60000000-0000-0000-5402-000000000000'
+  }
+]
+2026-05-21T22:52:54.746Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeTextField")
+2026-05-21T22:52:54.746Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:52:54.746Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField"}
+2026-05-21T22:52:54.873Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '60000000-0000-0000-5402-000000000000',
+  ELEMENT: '60000000-0000-0000-5402-000000000000'
+}
+2026-05-21T22:52:54.875Z INFO webdriver: COMMAND elementClear("60000000-0000-0000-5402-000000000000")
+2026-05-21T22:52:54.875Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element/60000000-0000-0000-5402-000000000000/clear
+2026-05-21T22:52:54.875Z INFO webdriver: DATA {}
+2026-05-21T22:52:54.912Z INFO webdriver: RESULT null
+2026-05-21T22:52:54.912Z INFO webdriver: COMMAND elementSendKeys("60000000-0000-0000-5402-000000000000", "8824876705")
+2026-05-21T22:52:54.912Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element/60000000-0000-0000-5402-000000000000/value
+2026-05-21T22:52:54.912Z INFO webdriver: DATA {"text":"8824876705"}
+2026-05-21T22:52:56.196Z INFO webdriver: RESULT null
+2026-05-21T22:52:56.196Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeStaticText[@label="Login" and @enabled="true"]")
+2026-05-21T22:52:56.196Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:52:56.196Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeStaticText[@label=\"Login\" and @enabled=\"true\"]"}
+2026-05-21T22:52:56.398Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '61000000-0000-0000-5402-000000000000',
+  ELEMENT: '61000000-0000-0000-5402-000000000000'
+}
+2026-05-21T22:52:56.399Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeStaticText[@label="Login" and @enabled="true"]")
+2026-05-21T22:52:56.400Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:56.400Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeStaticText[@label=\"Login\" and @enabled=\"true\"]"}
+2026-05-21T22:52:56.605Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '61000000-0000-0000-5402-000000000000',
+    ELEMENT: '61000000-0000-0000-5402-000000000000'
+  }
+]
+2026-05-21T22:52:56.606Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeStaticText[@label="Login" and @enabled="true"]")
+2026-05-21T22:52:56.606Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:52:56.606Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeStaticText[@label=\"Login\" and @enabled=\"true\"]"}
+2026-05-21T22:52:56.840Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '61000000-0000-0000-5402-000000000000',
+  ELEMENT: '61000000-0000-0000-5402-000000000000'
+}
+2026-05-21T22:52:56.842Z INFO webdriver: COMMAND elementClick("61000000-0000-0000-5402-000000000000")
+2026-05-21T22:52:56.842Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element/61000000-0000-0000-5402-000000000000/click
+2026-05-21T22:52:56.842Z INFO webdriver: DATA {}
+2026-05-21T22:52:57.649Z INFO webdriver: RESULT null
+2026-05-21T22:52:57.650Z INFO webdriver: COMMAND findElement("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:52:57.650Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:52:57.650Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:52:57.717Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at XCUITestDriver.doNativeFind (/private/tmp/devicefarm-workspace/execution-tpdsb9n1/test-package-zu6du_jq/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at XCUITestDriver.findNativeElementOrElements (/private/tmp/devicefarm-workspace/execution-tpdsb9n1/test-package-zu6du_jq/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+    '    at XCUITestDriver.findElOrEls (/private/tmp/devicefarm-workspace/execution-tpdsb9n1/test-package-zu6du_jq/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+    '    at XCUITestDriver.findElOrElsWithProcessing (/private/tmp/devicefarm-workspace/execution-tpdsb9n1/test-package-zu6du_jq/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+    '    at XCUITestDriver.findElement (/private/tmp/devicefarm-workspace/execution-tpdsb9n1/test-package-zu6du_jq/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)'
+}
+2026-05-21T22:52:57.718Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:52:57.718Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:57.718Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:52:57.793Z INFO webdriver: RESULT []
+2026-05-21T22:52:57.822Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:52:57.822Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:57.822Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:52:57.892Z INFO webdriver: RESULT []
+2026-05-21T22:52:57.921Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:52:57.921Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:57.921Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:52:57.984Z INFO webdriver: RESULT []
+2026-05-21T22:52:58.023Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:52:58.023Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:58.023Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:52:58.086Z INFO webdriver: RESULT []
+2026-05-21T22:52:58.120Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:52:58.120Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:58.120Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:52:58.178Z INFO webdriver: RESULT []
+2026-05-21T22:52:58.219Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:52:58.220Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:58.220Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:52:58.278Z INFO webdriver: RESULT []
+2026-05-21T22:52:58.321Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:52:58.321Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:58.321Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:52:58.418Z INFO webdriver: RESULT []
+2026-05-21T22:52:58.421Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:52:58.421Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:58.421Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:52:58.524Z INFO webdriver: RESULT []
+2026-05-21T22:52:58.526Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:52:58.527Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:58.527Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:52:58.622Z INFO webdriver: RESULT []
+2026-05-21T22:52:58.624Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:52:58.624Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:58.624Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:52:58.761Z INFO webdriver: RESULT []
+2026-05-21T22:52:58.762Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:52:58.762Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:58.762Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:52:58.880Z INFO webdriver: RESULT []
+2026-05-21T22:52:58.881Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:52:58.881Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:58.881Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:52:58.999Z INFO webdriver: RESULT []
+2026-05-21T22:52:59.002Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:52:59.002Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:59.002Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:52:59.117Z INFO webdriver: RESULT []
+2026-05-21T22:52:59.119Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:52:59.119Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:59.119Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:52:59.229Z INFO webdriver: RESULT []
+2026-05-21T22:52:59.232Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:52:59.232Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:59.232Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:52:59.341Z INFO webdriver: RESULT []
+2026-05-21T22:52:59.344Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:52:59.344Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:59.344Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:52:59.468Z INFO webdriver: RESULT []
+2026-05-21T22:52:59.470Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:52:59.470Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:59.470Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:52:59.565Z INFO webdriver: RESULT []
+2026-05-21T22:52:59.566Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:52:59.566Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:59.566Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:52:59.633Z INFO webdriver: RESULT []
+2026-05-21T22:52:59.636Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:52:59.636Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:59.636Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:52:59.695Z INFO webdriver: RESULT []
+2026-05-21T22:52:59.698Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:52:59.698Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:59.698Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:52:59.821Z INFO webdriver: RESULT []
+2026-05-21T22:52:59.823Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:52:59.823Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:59.823Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:52:59.942Z INFO webdriver: RESULT []
+2026-05-21T22:52:59.945Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:52:59.945Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:52:59.945Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:00.015Z INFO webdriver: RESULT []
+2026-05-21T22:53:00.018Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:00.018Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:00.018Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:00.108Z INFO webdriver: RESULT []
+2026-05-21T22:53:00.111Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:00.111Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:00.111Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:00.182Z INFO webdriver: RESULT []
+2026-05-21T22:53:00.185Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:00.185Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:00.185Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:00.278Z INFO webdriver: RESULT []
+2026-05-21T22:53:00.281Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:00.281Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:00.281Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:00.367Z INFO webdriver: RESULT []
+2026-05-21T22:53:00.369Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:00.370Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:00.370Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:00.491Z INFO webdriver: RESULT []
+2026-05-21T22:53:00.494Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:00.494Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:00.494Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:00.621Z INFO webdriver: RESULT []
+2026-05-21T22:53:00.623Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:00.624Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:00.624Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:00.707Z INFO webdriver: RESULT []
+2026-05-21T22:53:00.709Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:00.709Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:00.709Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:00.842Z INFO webdriver: RESULT []
+2026-05-21T22:53:00.844Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:00.844Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:00.845Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:00.968Z INFO webdriver: RESULT []
+2026-05-21T22:53:00.971Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:00.971Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:00.971Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:01.084Z INFO webdriver: RESULT []
+2026-05-21T22:53:01.087Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:01.087Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:01.087Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:01.198Z INFO webdriver: RESULT []
+2026-05-21T22:53:01.199Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:01.199Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:01.199Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:01.272Z INFO webdriver: RESULT []
+2026-05-21T22:53:01.273Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:01.273Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:01.273Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:01.412Z INFO webdriver: RESULT []
+2026-05-21T22:53:01.414Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:01.414Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:01.414Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:01.544Z INFO webdriver: RESULT []
+2026-05-21T22:53:01.546Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:01.546Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:01.546Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:01.663Z INFO webdriver: RESULT []
+2026-05-21T22:53:01.666Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:01.667Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:01.667Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:01.775Z INFO webdriver: RESULT []
+2026-05-21T22:53:01.778Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:01.778Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:01.778Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:01.854Z INFO webdriver: RESULT []
+2026-05-21T22:53:01.857Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:01.857Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:01.857Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:01.950Z INFO webdriver: RESULT []
+2026-05-21T22:53:01.953Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:01.954Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:01.954Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:02.027Z INFO webdriver: RESULT []
+2026-05-21T22:53:02.030Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:02.030Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:02.030Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:02.103Z INFO webdriver: RESULT []
+2026-05-21T22:53:02.105Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:02.106Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:02.106Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:02.229Z INFO webdriver: RESULT []
+2026-05-21T22:53:02.232Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:02.232Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:02.232Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:02.341Z INFO webdriver: RESULT []
+2026-05-21T22:53:02.343Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:02.343Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:02.343Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:02.437Z INFO webdriver: RESULT []
+2026-05-21T22:53:02.439Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:02.439Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:02.439Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:02.571Z INFO webdriver: RESULT []
+2026-05-21T22:53:02.573Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:02.573Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:02.573Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:02.673Z INFO webdriver: RESULT []
+2026-05-21T22:53:02.676Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:02.676Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:02.676Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:02.805Z INFO webdriver: RESULT []
+2026-05-21T22:53:02.806Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:02.806Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:02.806Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:02.908Z INFO webdriver: RESULT []
+2026-05-21T22:53:02.911Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:02.911Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:02.911Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:03.019Z INFO webdriver: RESULT []
+2026-05-21T22:53:03.021Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:03.021Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:03.022Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:03.154Z INFO webdriver: RESULT []
+2026-05-21T22:53:03.156Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:03.156Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:03.156Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:03.280Z INFO webdriver: RESULT []
+2026-05-21T22:53:03.281Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:03.281Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:03.281Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:03.389Z INFO webdriver: RESULT []
+2026-05-21T22:53:03.392Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:03.392Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:03.392Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:03.488Z INFO webdriver: RESULT []
+2026-05-21T22:53:03.490Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:03.490Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:03.490Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:03.617Z INFO webdriver: RESULT []
+2026-05-21T22:53:03.619Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:03.619Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:03.619Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:03.730Z INFO webdriver: RESULT []
+2026-05-21T22:53:03.732Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:03.732Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:03.732Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:03.854Z INFO webdriver: RESULT []
+2026-05-21T22:53:03.855Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:03.855Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:03.855Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:03.929Z INFO webdriver: RESULT []
+2026-05-21T22:53:03.932Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:03.932Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:03.932Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:04.009Z INFO webdriver: RESULT []
+2026-05-21T22:53:04.011Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:04.011Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:04.011Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:04.083Z INFO webdriver: RESULT []
+2026-05-21T22:53:04.086Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:04.086Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:04.086Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:04.202Z INFO webdriver: RESULT []
+2026-05-21T22:53:04.204Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:04.204Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:04.204Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:04.318Z INFO webdriver: RESULT []
+2026-05-21T22:53:04.321Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:04.321Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:04.321Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:04.437Z INFO webdriver: RESULT []
+2026-05-21T22:53:04.439Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:04.439Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:04.439Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:04.543Z INFO webdriver: RESULT []
+2026-05-21T22:53:04.546Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:04.546Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:04.546Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:04.672Z INFO webdriver: RESULT []
+2026-05-21T22:53:04.674Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:04.674Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:04.674Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:04.759Z INFO webdriver: RESULT []
+2026-05-21T22:53:04.761Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:04.761Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:04.761Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:04.889Z INFO webdriver: RESULT []
+2026-05-21T22:53:04.892Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:04.892Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:04.892Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:05.026Z INFO webdriver: RESULT []
+2026-05-21T22:53:05.027Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:05.027Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:05.027Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:05.139Z INFO webdriver: RESULT []
+2026-05-21T22:53:05.142Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:05.142Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:05.142Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:05.257Z INFO webdriver: RESULT []
+2026-05-21T22:53:05.260Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:05.260Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:05.260Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:05.374Z INFO webdriver: RESULT []
+2026-05-21T22:53:05.377Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:05.377Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:05.377Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:05.481Z INFO webdriver: RESULT []
+2026-05-21T22:53:05.484Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:05.484Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:05.484Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:05.600Z INFO webdriver: RESULT []
+2026-05-21T22:53:05.602Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:05.602Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:05.602Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:05.710Z INFO webdriver: RESULT []
+2026-05-21T22:53:05.713Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:05.713Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:05.713Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:05.824Z INFO webdriver: RESULT []
+2026-05-21T22:53:05.827Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:05.827Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:05.827Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:05.915Z INFO webdriver: RESULT []
+2026-05-21T22:53:05.918Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:05.918Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:05.918Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:06.035Z INFO webdriver: RESULT []
+2026-05-21T22:53:06.037Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:06.037Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:06.037Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:06.172Z INFO webdriver: RESULT []
+2026-05-21T22:53:06.174Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:06.174Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:06.174Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:06.290Z INFO webdriver: RESULT []
+2026-05-21T22:53:06.292Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:06.292Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:06.292Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:06.412Z INFO webdriver: RESULT []
+2026-05-21T22:53:06.415Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:06.415Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:06.415Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:06.520Z INFO webdriver: RESULT []
+2026-05-21T22:53:06.521Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:06.521Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:06.521Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:06.636Z INFO webdriver: RESULT []
+2026-05-21T22:53:06.639Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:06.639Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:06.639Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:06.720Z INFO webdriver: RESULT []
+2026-05-21T22:53:06.721Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:06.721Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:06.721Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:06.824Z INFO webdriver: RESULT []
+2026-05-21T22:53:06.826Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:06.826Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:06.826Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:06.905Z INFO webdriver: RESULT []
+2026-05-21T22:53:06.907Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:06.907Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:06.907Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:06.981Z INFO webdriver: RESULT []
+2026-05-21T22:53:06.983Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:06.983Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:06.983Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:07.072Z INFO webdriver: RESULT []
+2026-05-21T22:53:07.074Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:07.074Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:07.074Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:07.196Z INFO webdriver: RESULT []
+2026-05-21T22:53:07.198Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:07.199Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:07.199Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:07.280Z INFO webdriver: RESULT []
+2026-05-21T22:53:07.282Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:07.283Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:07.283Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:07.405Z INFO webdriver: RESULT []
+2026-05-21T22:53:07.408Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:07.408Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:07.408Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:07.481Z INFO webdriver: RESULT []
+2026-05-21T22:53:07.483Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:07.483Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:07.483Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:07.599Z INFO webdriver: RESULT []
+2026-05-21T22:53:07.600Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:07.600Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:07.600Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:07.714Z INFO webdriver: RESULT []
+2026-05-21T22:53:07.716Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:07.716Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:07.716Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:07.915Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '9C000000-0000-0000-5402-000000000000',
+    ELEMENT: '9C000000-0000-0000-5402-000000000000'
+  }
+]
+2026-05-21T22:53:07.916Z INFO webdriver: COMMAND findElement("xpath", "//*[contains(@label,"Verify OTP") 
+                   or contains(@name,"Verify OTP") 
+                   or contains(@value,"Verify OTP") 
+                   or contains(@text,"Verify OTP")]")
+2026-05-21T22:53:07.916Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:53:07.916Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Verify OTP\") \n                   or contains(@name,\"Verify OTP\") \n                   or contains(@value,\"Verify OTP\") \n                   or contains(@text,\"Verify OTP\")]"}
+2026-05-21T22:53:08.453Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '9C000000-0000-0000-5402-000000000000',
+  ELEMENT: '9C000000-0000-0000-5402-000000000000'
+}
+2026-05-21T22:53:08.454Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-21T22:53:08.454Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:53:08.454Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-21T22:53:08.578Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '9E000000-0000-0000-5402-000000000000',
+  ELEMENT: '9E000000-0000-0000-5402-000000000000'
+}
+2026-05-21T22:53:08.580Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-21T22:53:08.580Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:08.580Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-21T22:53:08.749Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '9E000000-0000-0000-5402-000000000000',
+    ELEMENT: '9E000000-0000-0000-5402-000000000000'
+  }
+]
+2026-05-21T22:53:08.750Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeTextField[@name="|"]")
+2026-05-21T22:53:08.751Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:53:08.751Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"|\"]"}
+2026-05-21T22:53:08.989Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '9E000000-0000-0000-5402-000000000000',
+  ELEMENT: '9E000000-0000-0000-5402-000000000000'
+}
+2026-05-21T22:53:08.990Z INFO webdriver: COMMAND elementClear("9E000000-0000-0000-5402-000000000000")
+2026-05-21T22:53:08.990Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element/9E000000-0000-0000-5402-000000000000/clear
+2026-05-21T22:53:08.990Z INFO webdriver: DATA {}
+2026-05-21T22:53:09.084Z INFO webdriver: RESULT null
+2026-05-21T22:53:09.085Z INFO webdriver: COMMAND elementSendKeys("9E000000-0000-0000-5402-000000000000", "657129")
+2026-05-21T22:53:09.085Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element/9E000000-0000-0000-5402-000000000000/value
+2026-05-21T22:53:09.085Z INFO webdriver: DATA {"text":"657129"}
+2026-05-21T22:53:09.521Z INFO webdriver: RESULT null
+2026-05-21T22:53:09.521Z INFO webdriver: COMMAND findElement("xpath", "(//XCUIElementTypeStaticText[@name])[3]")
+2026-05-21T22:53:09.521Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:53:09.521Z INFO webdriver: DATA {"using":"xpath","value":"(//XCUIElementTypeStaticText[@name])[3]"}
+2026-05-21T22:53:09.907Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at XCUITestDriver.doNativeFind (/private/tmp/devicefarm-workspace/execution-tpdsb9n1/test-package-zu6du_jq/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at XCUITestDriver.findNativeElementOrElements (/private/tmp/devicefarm-workspace/execution-tpdsb9n1/test-package-zu6du_jq/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)\n' +
+    '    at XCUITestDriver.findElOrEls (/private/tmp/devicefarm-workspace/execution-tpdsb9n1/test-package-zu6du_jq/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)\n' +
+    '    at XCUITestDriver.findElOrElsWithProcessing (/private/tmp/devicefarm-workspace/execution-tpdsb9n1/test-package-zu6du_jq/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)\n' +
+    '    at XCUITestDriver.findElement (/private/tmp/devicefarm-workspace/execution-tpdsb9n1/test-package-zu6du_jq/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)'
+}
+2026-05-21T22:53:09.908Z INFO webdriver: COMMAND findElements("xpath", "(//XCUIElementTypeStaticText[@name])[3]")
+2026-05-21T22:53:09.908Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:09.908Z INFO webdriver: DATA {"using":"xpath","value":"(//XCUIElementTypeStaticText[@name])[3]"}
+2026-05-21T22:53:09.990Z INFO webdriver: RESULT []
+2026-05-21T22:53:10.009Z INFO webdriver: COMMAND findElements("xpath", "(//XCUIElementTypeStaticText[@name])[3]")
+2026-05-21T22:53:10.009Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:10.009Z INFO webdriver: DATA {"using":"xpath","value":"(//XCUIElementTypeStaticText[@name])[3]"}
+2026-05-21T22:53:10.118Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'C3000000-0000-0000-5402-000000000000',
+    ELEMENT: 'C3000000-0000-0000-5402-000000000000'
+  }
+]
+2026-05-21T22:53:10.119Z INFO webdriver: COMMAND findElement("xpath", "(//XCUIElementTypeStaticText[@name])[3]")
+2026-05-21T22:53:10.119Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:53:10.119Z INFO webdriver: DATA {"using":"xpath","value":"(//XCUIElementTypeStaticText[@name])[3]"}
+2026-05-21T22:53:10.226Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'C3000000-0000-0000-5402-000000000000',
+  ELEMENT: 'C3000000-0000-0000-5402-000000000000'
+}
+2026-05-21T22:53:10.227Z INFO webdriver: COMMAND elementClick("C3000000-0000-0000-5402-000000000000")
+2026-05-21T22:53:10.227Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element/C3000000-0000-0000-5402-000000000000/click
+2026-05-21T22:53:10.227Z INFO webdriver: DATA {}
+2026-05-21T22:53:10.642Z INFO webdriver: RESULT null
+2026-05-21T22:53:10.642Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeTextField")
+2026-05-21T22:53:10.642Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:53:10.642Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField"}
+2026-05-21T22:53:10.810Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'DD000000-0000-0000-5402-000000000000',
+  ELEMENT: 'DD000000-0000-0000-5402-000000000000'
+}
+2026-05-21T22:53:10.812Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField")
+2026-05-21T22:53:10.812Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:10.812Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField"}
+2026-05-21T22:53:11.027Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'DD000000-0000-0000-5402-000000000000',
+    ELEMENT: 'DD000000-0000-0000-5402-000000000000'
+  }
+]
+2026-05-21T22:53:11.028Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeTextField")
+2026-05-21T22:53:11.028Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:53:11.028Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField"}
+2026-05-21T22:53:11.226Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'DD000000-0000-0000-5402-000000000000',
+  ELEMENT: 'DD000000-0000-0000-5402-000000000000'
+}
+2026-05-21T22:53:11.227Z INFO webdriver: COMMAND elementClear("DD000000-0000-0000-5402-000000000000")
+2026-05-21T22:53:11.227Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element/DD000000-0000-0000-5402-000000000000/clear
+2026-05-21T22:53:11.227Z INFO webdriver: DATA {}
+2026-05-21T22:53:11.299Z INFO webdriver: RESULT null
+2026-05-21T22:53:11.300Z INFO webdriver: COMMAND elementSendKeys("DD000000-0000-0000-5402-000000000000", "<Screenshot[base64]>")
+2026-05-21T22:53:11.300Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element/DD000000-0000-0000-5402-000000000000/value
+2026-05-21T22:53:11.300Z INFO webdriver: DATA {"text":"ThankYou"}
+2026-05-21T22:53:12.688Z INFO webdriver: RESULT null
+2026-05-21T22:53:12.688Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeTextField/following-sibling::XCUIElementTypeImage")
+2026-05-21T22:53:12.688Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:53:12.688Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField/following-sibling::XCUIElementTypeImage"}
+2026-05-21T22:53:12.962Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'DE000000-0000-0000-5402-000000000000',
+  ELEMENT: 'DE000000-0000-0000-5402-000000000000'
+}
+2026-05-21T22:53:12.963Z INFO webdriver: COMMAND findElements("xpath", "//XCUIElementTypeTextField/following-sibling::XCUIElementTypeImage")
+2026-05-21T22:53:12.963Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:12.963Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField/following-sibling::XCUIElementTypeImage"}
+2026-05-21T22:53:13.159Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': 'DE000000-0000-0000-5402-000000000000',
+    ELEMENT: 'DE000000-0000-0000-5402-000000000000'
+  }
+]
+2026-05-21T22:53:13.161Z INFO webdriver: COMMAND findElement("xpath", "//XCUIElementTypeTextField/following-sibling::XCUIElementTypeImage")
+2026-05-21T22:53:13.161Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:53:13.161Z INFO webdriver: DATA {"using":"xpath","value":"//XCUIElementTypeTextField/following-sibling::XCUIElementTypeImage"}
+2026-05-21T22:53:13.409Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': 'DE000000-0000-0000-5402-000000000000',
+  ELEMENT: 'DE000000-0000-0000-5402-000000000000'
+}
+2026-05-21T22:53:13.410Z INFO webdriver: COMMAND elementClick("DE000000-0000-0000-5402-000000000000")
+2026-05-21T22:53:13.411Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element/DE000000-0000-0000-5402-000000000000/click
+2026-05-21T22:53:13.411Z INFO webdriver: DATA {}
+2026-05-21T22:53:14.345Z INFO webdriver: RESULT null
+2026-05-21T22:53:14.345Z INFO webdriver: COMMAND findElement("xpath", "//*[contains(@label,"Comment posted successfully") 
+                   or contains(@name,"Comment posted successfully") 
+                   or contains(@value,"Comment posted successfully") 
+                   or contains(@text,"Comment posted successfully")]")
+2026-05-21T22:53:14.346Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:53:14.346Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Comment posted successfully\") \n                   or contains(@name,\"Comment posted successfully\") \n                   or contains(@value,\"Comment posted successfully\") \n                   or contains(@text,\"Comment posted successfully\")]"}
+2026-05-21T22:53:14.474Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '2B010000-0000-0000-5402-000000000000',
+  ELEMENT: '2B010000-0000-0000-5402-000000000000'
+}
+2026-05-21T22:53:14.476Z INFO webdriver: COMMAND findElements("xpath", "//*[contains(@label,"Comment posted successfully") 
+                   or contains(@name,"Comment posted successfully") 
+                   or contains(@value,"Comment posted successfully") 
+                   or contains(@text,"Comment posted successfully")]")
+2026-05-21T22:53:14.476Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/elements
+2026-05-21T22:53:14.476Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Comment posted successfully\") \n                   or contains(@name,\"Comment posted successfully\") \n                   or contains(@value,\"Comment posted successfully\") \n                   or contains(@text,\"Comment posted successfully\")]"}
+2026-05-21T22:53:14.585Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '2B010000-0000-0000-5402-000000000000',
+    ELEMENT: '2B010000-0000-0000-5402-000000000000'
+  }
+]
+2026-05-21T22:53:14.586Z INFO webdriver: COMMAND findElement("xpath", "//*[contains(@label,"Comment posted successfully") 
+                   or contains(@name,"Comment posted successfully") 
+                   or contains(@value,"Comment posted successfully") 
+                   or contains(@text,"Comment posted successfully")]")
+2026-05-21T22:53:14.586Z INFO webdriver: [POST] http://127.0.0.1:4723/session/be5c8742-9df4-409b-9a5c-604e5444739a/element
+2026-05-21T22:53:14.586Z INFO webdriver: DATA {"using":"xpath","value":"//*[contains(@label,\"Comment posted successfully\") \n                   or contains(@name,\"Comment posted successfully\") \n                   or contains(@value,\"Comment posted successfully\") \n                   or contains(@text,\"Comment posted successfully\")]"}
+2026-05-21T22:53:14.735Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '2B010000-0000-0000-5402-000000000000',
+  ELEMENT: '2B010000-0000-0000-5402-000000000000'
+}

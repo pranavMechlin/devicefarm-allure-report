@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(//XCUIElementTypeStaticText[@value=\"0\" and @name=\"0\" and @label=\"0\"])[2]"
+}

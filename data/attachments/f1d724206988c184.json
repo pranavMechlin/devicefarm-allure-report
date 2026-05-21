@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[contains(@label,\"Support ticket submitted\") \n                   or contains(@name,\"Support ticket submitted\") \n                   or contains(@value,\"Support ticket submitted\") \n                   or contains(@text,\"Support ticket submitted\")]"
+}

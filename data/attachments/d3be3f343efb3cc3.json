@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[contains(@label,\"Profile updated\") \n                   or contains(@name,\"Profile updated\") \n                   or contains(@value,\"Profile updated\") \n                   or contains(@text,\"Profile updated\")]"
+}
